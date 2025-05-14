@@ -3,7 +3,7 @@
 This is a responsive, single-page AI Dashboard UI built as part of an internship assignment. It features a user greeting, dynamic avatar cards fetched from the Reqres API, and a modal interface to simulate avatar creation.
 
 ##  Live Demo
-[View Live Project](https://ai-dashborad-frontend.vercel.app/)
+[View Live Project](https://ai-dashborad-frontend-3q6k.vercel.app/)
 
 ## Repository
 [GitHub Repository](https://github.com/Vija047/Ai-Dashborad-frontend)
