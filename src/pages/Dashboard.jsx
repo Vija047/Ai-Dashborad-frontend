@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import AvatarCard from "../components/AvatarCard";
 import CreateAvatarModal from "../components/CreateAvatarModal";
 import { Plus } from "lucide-react";
-import { useNavigate } from "react-router-dom"; // ✅ Import useNavigate
+import { useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
-  const navigate = useNavigate(); // ✅ Initialize navigate hook
+  const navigate = useNavigate();
   const [avatars, setAvatars] = useState([]);
   const [modalOpen, setModalOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -15,7 +15,7 @@ const Dashboard = () => {
     fetch("https://reqres.in/api/users?page=1")
       .then(res => res.json())
       .then(data => {
-        setAvatars(data.data.slice(0, 3)); // Fetching 3 avatars as before
+        setAvatars(data.data.slice(0, 3)); 
         setIsLoading(false);
       })
       .catch(err => {
@@ -36,12 +36,12 @@ const Dashboard = () => {
           </div>
 
           <div
-            className="bg-[#1a1f38] px-4 py-2 rounded-full cursor-pointer hover:bg-[#2a2f4a]" // ✅ Added hover effect for better UI
-            onClick={() => navigate("/avatars")} // ✅ Use navigate for routing
+            className="bg-[#1a1f38] px-4 py-2 rounded-full cursor-pointer hover:bg-[#2a2f4a]" 
+            onClick={() => navigate("/avatars")} 
           >
             <span className="text-gray-300 text-sm">
               {isLoading ? "Loading..." : `${avatars.length || 3} Avatars Available`} 
-              {/* Fallback to 10 if avatars.length is falsy */}
+              
             </span>
           </div>
         </div>

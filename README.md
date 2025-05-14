@@ -1,12 +1,38 @@
-# React + Vite
+# AI Dashboard UI – Internship Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive, single-page AI Dashboard UI built as part of an internship assignment. It features a user greeting, dynamic avatar cards fetched from the Reqres API, and a modal interface to simulate avatar creation.
 
-Currently, two official plugins are available:
+##  Live Demo
+[View Live Project](https://ai-dashborad-frontend.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Repository
+[GitHub Repository](https://github.com/Vija047/Ai-Dashborad-frontend)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Features
+
+-  Responsive layout using **Tailwind CSS**
+-  Welcome header with user greeting
+-  Card-based avatar section (3 avatars from Reqres API)
+-  “Edit” button on each avatar
+-  Floating “Create New Avatar” button that opens a modal
+-  Mobile-friendly and clean component structure
+-  Smooth hover effects and transitions
+
+---
+
+##  Tech Stack
+
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+
+---
+
+##  Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Vija047/Ai-Dashborad-frontend.git
+cd Ai-Dashborad-frontend
